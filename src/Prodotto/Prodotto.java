@@ -18,7 +18,7 @@ private String nome;
  private int codiceProdotto;
  private static int contatoreProdotti=0;
 
- public Prodotto(String nome, int codiceProdotto) {
+ public Prodotto(String nome) {
     this.nome = nome;
     contatoreProdotti++;
     this.codiceProdotto=contatoreProdotti;

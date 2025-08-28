@@ -3,9 +3,9 @@ package Prodotto;
 public class Main {
 
     public static void main(String[] args) {
-        Prodotto p1 = new Prodotto("Computer", 10);
-        Prodotto p2 = new Prodotto("Cuffie", 0);
-        Prodotto p3 = new Prodotto("Tastiera", 0);
+        Prodotto p1 = new Prodotto("Computer");
+        Prodotto p2 = new Prodotto("Cuffie");
+        Prodotto p3 = new Prodotto("Tastiera");
     
     
         System.out.println("Numero di prodotti creati : " + Prodotto.getNumeroProdottiCreati());
